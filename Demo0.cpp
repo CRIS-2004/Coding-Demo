@@ -3,31 +3,31 @@ using namespace std;
 
 	 void listFile(){
 	int num;
-	cout << "   List File Detail     "<< ;
-	cout << "1. List All Files "<< ;
-	cout << "2. List of Extension Files " << ;
-	cout << "3.List of Name Wise"<<;
-	cout << "Enter your Choice: ";
+	cout << "\n   List File Detail     "<< endl ;
+	cout << "1. List All Files "<< endl ;
+	cout << "2. List of Extension Files " << endl;
+	cout << "3.List of Name Wise"<< endl;
+	cout << "Enter your Choice: " endl;
 		cin >> num;
 		
 		if(num == 1){
-	cout << "\nList of All(*.*) Files "<< ;
-	cout << "file1.txt"<< ;
-	cout << "file2.cpp"<< ;
-	cout << "report.doc"<< ;
-	cout << "image.jpg"<< ;
-	cout << "(continues...)"<< ;
-	cout << "Total Files: 4"<< ;
-	cout << "Press any key  to continue..."<< ;
+	cout << "\nList of All(*.*) Files "<< endl;
+	cout << "file1.txt"<< endl;
+	cout << "file2.cpp"<< endl;
+	cout << "report.doc"<< endl;
+	cout << "image.jpg"<< endl;
+	cout << "(continues...)"<< endl;
+	cout << "Total Files: 4"<< endl;
+	cout << "Press any key  to continue..."<< endl;
 	
 		}
 	}
 	
 	void createDirectory(){
 	string Name;
-	cout << "Enter the Directory name: "<< ;
+	cout << "Enter the Directory name: "<< endl;
 		cin >> Name;
-	cout << "Current directory: C: \\Users\\UserName\\Documents"<< ;
+	cout << "Current directory: C: \\Users\\UserName\\Documents"<< endl;
 	cout << Name << "Directory Successfully Created"<< endl;
 	cout << "Press any key to continue..."<< endl;
 	}	
