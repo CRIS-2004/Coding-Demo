@@ -26,7 +26,7 @@ using namespace std;
 	
 	void createDirectory(){
 	string Name;
-	cout << "Enter the Directory name: "<< endl;
+	cout << "Enter the Directory name: ";
 		cin >> Name;
 	cout << "Current directory: C: \\Users\\UserName\\Documents"<< endl;
 	cout << Name << "Directory Successfully Created"<< endl;
