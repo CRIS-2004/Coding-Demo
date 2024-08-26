@@ -4,6 +4,7 @@ using namespace std;
 	 void listFile(){
 	int num;
 	cout << "\n   List File Detail     "<< endl ;
+	cout << " -------------------------   "<< endl ;	 
 	cout << "1. List All Files "<< endl ;
 	cout << "2. List of Extension Files " << endl;
 	cout << "3.List of Name Wise"<< endl;
@@ -11,7 +12,7 @@ using namespace std;
 		cin >> num;
 		
 		if(num == 1){
-	cout << "\nList of All(*.*) Files "<< endl;
+	cout << "List of All(*.*) Files "<< endl;
 	cout << "file1.txt"<< endl;
 	cout << "file2.cpp"<< endl;
 	cout << "report.doc"<< endl;
@@ -36,8 +37,9 @@ using namespace std;
 	void changeDirectory() {
     string Name;
     int num;
-    cout << "\nCurrent Directory: C:\\Users\\UserName\\Documents\n" << endl;
+    cout << "Current Directory: C:\\Users\\UserName\\Documents\n" << endl;
     cout << "        Change Directory      "<< endl;
+    cout << " -------------------------   "<< endl ;
     cout << "1. Step by Step Backward"<< endl;
     cout << "2. Goto Root Directory"<< endl;
     cout << "3. Forward Directory"<< endl;
@@ -55,10 +57,12 @@ using namespace std;
 	int num;
 	 do{
 	 	cout << "         MAIN MENU       "  << endl;
+		cout << " -------------------------   "<< endl ;
 	 	cout << "1. To Display List of Files"<< endl;
 	 	cout << "2. To Create New Directory"<< endl;
 	 	cout << "3. To Change the Working Directory"<< endl;
 	 	cout << "4. Exit"<< endl;
+		cout << "Enter the Number:"; 
 	 	cin >> num;
 	 	
 	 	 if (num == 1){
