@@ -37,7 +37,7 @@ using namespace std;
 	void changeDirectory() {
     string Name;
     int num;
-    cout << "Current Directory: C:\\Users\\UserName\\Documents\n" << endl;
+    cout << "\nCurrent Directory: C:\\Users\\UserName\\Documents\n" << endl;
     cout << "        Change Directory      "<< endl;
     cout << " -------------------------   "<< endl ;
     cout << "1. Step by Step Backward"<< endl;
