@@ -8,7 +8,7 @@ using namespace std;
 	cout << "1. List All Files "<< endl ;
 	cout << "2. List of Extension Files " << endl;
 	cout << "3.List of Name Wise"<< endl;
-	cout << "Enter your Choice: ";
+	cout << " Enter the Number of your Choice: ";
 		cin >> num;
 		
 		if(num == 1){
@@ -43,10 +43,10 @@ using namespace std;
     cout << "1. Step by Step Backward"<< endl;
     cout << "2. Goto Root Directory"<< endl;
     cout << "3. Forward Directory"<< endl;
-    cout << "Enter the Number: ";
+    cout << "Enter the Number of your Choice: ";
     	cin >> num;
     cout <<""<<endl;
-    cout << "Please enter the Directory Name: ";
+    cout << "Please Enter the Directory Name: ";
     	cin >> Name;
     cout << "Current Directory: C:\\Users\\UserName\\Documents\\" << Name << endl;
     cout << "Press any key  to continue...\n"<< endl;
@@ -62,7 +62,7 @@ using namespace std;
 	 	cout << "2. To Create New Directory"<< endl;
 	 	cout << "3. To Change the Working Directory"<< endl;
 	 	cout << "4. Exit"<< endl;
-		cout << "Enter the Number:"; 
+		cout << "Enter the Number of your Choice:"; 
 	 	cin >> num;
 	 	
 	 	 if (num == 1){
@@ -74,7 +74,7 @@ using namespace std;
 			}else if(num == 4){
 				cout << "Exiting..." << endl;
 			}else {
-				cout << "Invalid choice! Try again." << endl;
+				cout << "Invalid Number! Please Try again." << endl;
 			}
 
     	} while (num != 4);
