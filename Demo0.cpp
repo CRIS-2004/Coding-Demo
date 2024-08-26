@@ -29,7 +29,7 @@ using namespace std;
 	cout << "\nEnter the Directory name: ";
 		cin >> Name;
 	cout << "Current directory: C: \\Users\\UserName\\Documents"<< endl;
-	cout << Name << "Directory Successfully Created"<< endl;
+	cout << Name << " Directory Successfully Created"<< endl;
 	cout << "Press any key to continue..."<< endl;
 	}	
 	
@@ -56,7 +56,7 @@ using namespace std;
 	int main(){
 	int num;
 	 do{
-	 	cout << "         MAIN MENU       "  << endl;
+	 	cout << "\n         MAIN MENU       "  << endl;
 		cout << " -------------------------   "<< endl ;
 	 	cout << "1. To Display List of Files"<< endl;
 	 	cout << "2. To Create New Directory"<< endl;
