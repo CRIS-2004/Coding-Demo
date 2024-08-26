@@ -8,7 +8,7 @@ using namespace std;
 	cout << "1. List All Files "<< endl ;
 	cout << "2. List of Extension Files " << endl;
 	cout << "3.List of Name Wise"<< endl;
-	cout << "Enter your Choice: " << endl;
+	cout << "Enter your Choice: ";
 		cin >> num;
 		
 		if(num == 1){
