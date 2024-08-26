@@ -19,7 +19,7 @@ using namespace std;
 	cout << "image.jpg"<< endl;
 	cout << "(continues...)"<< endl;
 	cout << "\nTotal Files: 4"<< endl;
-	cout << "Press any key  to continue...\n"<< endl;
+	cout << "Please Press any key  to continue...\n"<< endl;
 	
 		}
 	}
@@ -30,7 +30,7 @@ using namespace std;
 		cin >> Name;
 	cout << "Current directory: C: \\Users\\UserName\\Documents"<< endl;
 	cout << Name << " Directory Successfully Created"<< endl;
-	cout << "Press any key to continue..."<< endl;
+	cout << "Please Press any key to continue..."<< endl;
 	}	
 	
 	
@@ -49,7 +49,7 @@ using namespace std;
     cout << "Please Enter the Directory Name: ";
     	cin >> Name;
     cout << "Current Directory: C:\\Users\\UserName\\Documents\\" << Name << endl;
-    cout << "Press any key  to continue...\n"<< endl;
+    cout << "Please Press any key  to continue...\n"<< endl;
 	}
 	
 	
@@ -72,7 +72,7 @@ using namespace std;
 			}else if(num == 3){
 				changeDirectory();
 			}else if(num == 4){
-				cout << "Exiting..." << endl;
+				cout << "Exiting" << endl;
 			}else {
 				cout << "Invalid Number! Please Try again." << endl;
 			}
