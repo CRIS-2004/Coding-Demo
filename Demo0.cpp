@@ -12,14 +12,14 @@ using namespace std;
 		cin >> num;
 		
 		if(num == 1){
-	cout << "List of All(*.*) Files "<< endl;
+	cout << "\nList of All(*.*) Files "<< endl;
 	cout << "file1.txt"<< endl;
 	cout << "file2.cpp"<< endl;
 	cout << "report.doc"<< endl;
 	cout << "image.jpg"<< endl;
 	cout << "(continues...)"<< endl;
-	cout << "Total Files: 4"<< endl;
-	cout << "Press any key  to continue..."<< endl;
+	cout << "\nTotal Files: 4"<< endl;
+	cout << "Press any key  to continue...\n"<< endl;
 	
 		}
 	}
